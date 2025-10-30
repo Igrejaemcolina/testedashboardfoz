@@ -1,7 +1,7 @@
 const SHEET_LINKS_CONFIG_URL = "sheet-links.json";
 // Atualize os links utilizados pela dashboard em sheet-links.json.
 const DEFAULT_SHEET_LINKS = {
-  mainSheetId: "1mDhodf4gOXVNr7JTLr9sLWT-devdC1-pWmmfVoK0RNk",
+  mainSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
   supplementalSheetId: "1FLPdqmH6xOaMbc2RUjuANDWWNaMpJlc8RGuYiPjC_GQ",
   serviceSheetId: "",
   serviceSheetGid: "",
@@ -9,13 +9,13 @@ const DEFAULT_SHEET_LINKS = {
   serviceHtmlUrl: "",
   serviceGvizUrl: "",
   serviceCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxT6NKzLoYEjJcVF-f-Z7llsdhxUHdB6ib3uHrhjnfO2jeD2NK0Ot5abJqSmNThoyt2WRh69yC3wPB/pub?gid=2086743732&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSW-y7zx4GQ6g7th2HSZ9U8BWUWsp7cBBUInDh5-nNACo6nQX81GzPuyq3oTz36kyAyxJNjJ7PRRehv/pub?gid=757321380&single=true&output=csv",
   parentsCsvUrl:
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKe0sITHUBQQ9maOOcKKgAPPdF7v_ZR8Qb1ZdbRLsC5gqeDyhXjOEwbrnronhTSnFPIhlf3_7u-g0O/pub?gid=821736003&single=true&output=csv",
-  careNetworkSheetId: "1XWYkdQTUHo5qhcnaYVpexxCxtL9Tifjm2tmDnT6ZTC4",
-  careNetworkSheetGid: "457208564",
+  careNetworkSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
+  careNetworkSheetGid: "0",
   careNetworkSheetUrl:
-    "https://docs.google.com/spreadsheets/d/1XWYkdQTUHo5qhcnaYVpexxCxtL9Tifjm2tmDnT6ZTC4/edit",
+    "https://docs.google.com/spreadsheets/d/1KW6nYYuBOfPpGhVdvOdqQyYjTsS2fP-vHg7AQ3MhcjY/edit?usp=sharing",
   careNetworkGvizUrl: "",
   careNetworkHtmlUrl: "",
 };
@@ -907,11 +907,11 @@ const LANGUAGE_OPTIONS = {
 const TRANSLATIONS = {
   pt: {
     app: {
-      title: "Dados da IGColina",
+      title: "Dados da IGFI",
       tagline: "Dashboard criada para uso da Igreja em Colina® 2025",
-      homeAria: "Início · Dados da IGColina",
+      homeAria: "Início · Dados da IGFI",
       document: ({ page }) =>
-        page ? `${page} · Dados da IGColina` : "Dados da IGColina",
+        page ? `${page} · Dados da IGFI` : "Dados da IGFI",
     },
     header: {
       lastUpdated: {
@@ -1320,7 +1320,7 @@ const TRANSLATIONS = {
           "Como responsável pelos serviços, você pode atribuir ministérios (inclusive mais de um por irmão) e ajustar quem está servindo diretamente pelo gerenciador.",
       },
       customFollowUp:
-        "Verifique se os dados estão atualizados na planilha e utilize os cartões ou a busca para localizar rapidamente as informações desejadas. Caso a dúvida persista, entre em contato com a liderança da IGColina.",
+        "Verifique se os dados estão atualizados na planilha e utilize os cartões ou a busca para localizar rapidamente as informações desejadas. Caso a dúvida persista, entre em contato com a liderança da IGFI.",
     },
     serviceManager: {
       title: "Gerenciar serviços",
@@ -1427,11 +1427,11 @@ const TRANSLATIONS = {
   },
   en: {
     app: {
-      title: "IGColina Data",
+      title: "IGFI Data",
       tagline: "Dashboard created for Igreja em Colina® 2025",
-      homeAria: "Home · IGColina Data",
+      homeAria: "Home · IGFI Data",
       document: ({ page }) =>
-        page ? `${page} · IGColina Data` : "IGColina Data",
+        page ? `${page} · IGFI Data` : "IGFI Data",
     },
     header: {
       lastUpdated: {
@@ -1836,7 +1836,7 @@ const TRANSLATIONS = {
           "As the services coordinator, you can assign ministries (even multiple per member) and maintain serving information directly from the manager.",
       },
       customFollowUp:
-        "Make sure the data is up to date in the spreadsheet and use the cards or search to quickly locate the information you need. If the question persists, contact the IGColina leadership.",
+        "Make sure the data is up to date in the spreadsheet and use the cards or search to quickly locate the information you need. If the question persists, contact the IGFI leadership.",
     },
     serviceManager: {
       title: "Manage services",
@@ -1940,11 +1940,11 @@ const TRANSLATIONS = {
   },
   es: {
     app: {
-      title: "Datos de IGColina",
+      title: "Datos de IGFI",
       tagline: "Panel creado para uso de la Iglesia en Colina® 2025",
-      homeAria: "Inicio · Datos de IGColina",
+      homeAria: "Inicio · Datos de IGFI",
       document: ({ page }) =>
-        page ? `${page} · Datos de IGColina` : "Datos de IGColina",
+        page ? `${page} · Datos de IGFI` : "Datos de IGFI",
     },
     header: {
       lastUpdated: {
@@ -2352,7 +2352,7 @@ const TRANSLATIONS = {
           "Como responsable de los servicios, puedes asignar ministerios (incluso más de uno por hermano) y mantener la información actualizada directamente en el gestor.",
       },
       customFollowUp:
-        "Verifica que los datos estén actualizados en la planilla y utiliza las tarjetas o la búsqueda para localizar rápidamente la información deseada. Si la duda persiste, ponte en contacto con la lideranza de IGColina.",
+        "Verifica que los datos estén actualizados en la planilla y utiliza las tarjetas o la búsqueda para localizar rápidamente la información deseada. Si la duda persiste, ponte en contacto con la lideranza de IGFI.",
     },
     serviceManager: {
       title: "Gestionar servicios",
