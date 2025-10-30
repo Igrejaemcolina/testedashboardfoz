@@ -1,7 +1,7 @@
 const SHEET_LINKS_CONFIG_URL = "sheet-links.json";
 // Atualize os links utilizados pela dashboard em sheet-links.json.
 const DEFAULT_SHEET_LINKS = {
-  mainSheetId: "1mDhodf4gOXVNr7JTLr9sLWT-devdC1-pWmmfVoK0RNk",
+  mainSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
   supplementalSheetId: "1FLPdqmH6xOaMbc2RUjuANDWWNaMpJlc8RGuYiPjC_GQ",
   serviceSheetId: "",
   serviceSheetGid: "",
