@@ -1,23 +1,18 @@
 const SHEET_LINKS_CONFIG_URL = "sheet-links.json";
 // Atualize os links utilizados pela dashboard em sheet-links.json.
 const DEFAULT_SHEET_LINKS = {
-  mainSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
+   mainSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
   supplementalSheetId: "1FLPdqmH6xOaMbc2RUjuANDWWNaMpJlc8RGuYiPjC_GQ",
   serviceSheetId: "",
   serviceSheetGid: "",
   serviceSheetUrl: "",
-  serviceHtmlUrl: "",
+  serviceHtmlUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSW-y7zx4GQ6g7th2HSZ9U8BWUWsp7cBBUInDh5-nNACo6nQX81GzPuyq3oTz36kyAyxJNjJ7PRRehv/pubhtml?gid=757321380&amp;single=true&amp;widget=true&amp;headers=false",
   serviceGvizUrl: "",
-  serviceCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSW-y7zx4GQ6g7th2HSZ9U8BWUWsp7cBBUInDh5-nNACo6nQX81GzPuyq3oTz36kyAyxJNjJ7PRRehv/pubhtml?gid=757321380&single=true",
-  parentsCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKe0sITHUBQQ9maOOcKKgAPPdF7v_ZR8Qb1ZdbRLsC5gqeDyhXjOEwbrnronhTSnFPIhlf3_7u-g0O/pub?gid=821736003&single=true&output=csv",
-  careNetworkSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
+  parentsCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKe0sITHUBQQ9maOOcKKgAPPdF7v_ZR8Qb1ZdbRLsC5gqeDyhXjOEwbrnronhTSnFPIhlf3_7u-g0O/pub?gid=821736003&single=true&output=csv",
+  careNetworkSheetUrl: "https://docs.google.com/spreadsheets/d/1KW6nYYuBOfPpGhVdvOdqQyYjTsS2fP-vHg7AQ3MhcjY/edit?usp=sharing",
   careNetworkSheetGid: "0",
-  careNetworkSheetUrl:
-    "https://docs.google.com/spreadsheets/d/1KW6nYYuBOfPpGhVdvOdqQyYjTsS2fP-vHg7AQ3MhcjY/edit?usp=sharing",
   careNetworkGvizUrl: "",
-  careNetworkHtmlUrl: "",
+  careNetworkHtmlUrl: ""
 };
 
 const SERVICE_SHEET_HEADERS = {
