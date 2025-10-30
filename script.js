@@ -15,7 +15,7 @@ const DEFAULT_SHEET_LINKS = {
   careNetworkSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
   careNetworkSheetGid: "0",
   careNetworkSheetUrl:
-    "https://docs.google.com/spreadsheets/d/1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw/edit",
+    "https://docs.google.com/spreadsheets/d/1KW6nYYuBOfPpGhVdvOdqQyYjTsS2fP-vHg7AQ3MhcjY/edit?usp=sharing",
   careNetworkGvizUrl: "",
   careNetworkHtmlUrl: "",
 };
