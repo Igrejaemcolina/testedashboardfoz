@@ -1,7 +1,7 @@
 const SHEET_LINKS_CONFIG_URL = "sheet-links.json";
 // Atualize os links utilizados pela dashboard em sheet-links.json.
 const DEFAULT_SHEET_LINKS = {
-  mainSheetId: "1mDhodf4gOXVNr7JTLr9sLWT-devdC1-pWmmfVoK0RNk",
+  mainSheetId: "1iESO8tDI8Okonu4js6yXLK70G0cJvVpc6y6yH1NL-gw",
   supplementalSheetId: "1FLPdqmH6xOaMbc2RUjuANDWWNaMpJlc8RGuYiPjC_GQ",
   serviceSheetId: "",
   serviceSheetGid: "",
@@ -9,13 +9,13 @@ const DEFAULT_SHEET_LINKS = {
   serviceHtmlUrl: "",
   serviceGvizUrl: "",
   serviceCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxT6NKzLoYEjJcVF-f-Z7llsdhxUHdB6ib3uHrhjnfO2jeD2NK0Ot5abJqSmNThoyt2WRh69yC3wPB/pub?gid=2086743732&single=true&output=csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSW-y7zx4GQ6g7th2HSZ9U8BWUWsp7cBBUInDh5-nNACo6nQX81GzPuyq3oTz36kyAyxJNjJ7PRRehv/pub?gid=757321380&single=true&output=csv",
   parentsCsvUrl:
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKe0sITHUBQQ9maOOcKKgAPPdF7v_ZR8Qb1ZdbRLsC5gqeDyhXjOEwbrnronhTSnFPIhlf3_7u-g0O/pub?gid=821736003&single=true&output=csv",
-  careNetworkSheetId: "1XWYkdQTUHo5qhcnaYVpexxCxtL9Tifjm2tmDnT6ZTC4",
-  careNetworkSheetGid: "457208564",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSlWWmChElXo2Xhjf-4EZ8D6FFD8qjNDoKgzNzv_f6-RqqTmukrYPzM28nfaGfSOWyRQW-_LvoG3JBF/pub?output=csv",
+  careNetworkSheetId: "",
+  careNetworkSheetGid: "",
   careNetworkSheetUrl:
-    "https://docs.google.com/spreadsheets/d/1XWYkdQTUHo5qhcnaYVpexxCxtL9Tifjm2tmDnT6ZTC4/edit",
+    "https://docs.google.com/spreadsheets/d/1KW6nYYuBOfPpGhVdvOdqQyYjTsS2fP-vHg7AQ3MhcjY/edit?usp=sharing",
   careNetworkGvizUrl: "",
   careNetworkHtmlUrl: "",
 };
@@ -907,11 +907,11 @@ const LANGUAGE_OPTIONS = {
 const TRANSLATIONS = {
   pt: {
     app: {
-      title: "Dados da IGColina",
+      title: "Dados da IGFI",
       tagline: "Dashboard criada para uso da Igreja em Colina® 2025",
-      homeAria: "Início · Dados da IGColina",
+      homeAria: "Início · Dados da IGFI",
       document: ({ page }) =>
-        page ? `${page} · Dados da IGColina` : "Dados da IGColina",
+        page ? `${page} · Dados da IGFI` : "Dados da IGFI",
     },
     header: {
       lastUpdated: {
@@ -1320,7 +1320,7 @@ const TRANSLATIONS = {
           "Como responsável pelos serviços, você pode atribuir ministérios (inclusive mais de um por irmão) e ajustar quem está servindo diretamente pelo gerenciador.",
       },
       customFollowUp:
-        "Verifique se os dados estão atualizados na planilha e utilize os cartões ou a busca para localizar rapidamente as informações desejadas. Caso a dúvida persista, entre em contato com a liderança da IGColina.",
+        "Verifique se os dados estão atualizados na planilha e utilize os cartões ou a busca para localizar rapidamente as informações desejadas. Caso a dúvida persista, entre em contato com a liderança da IGFI.",
     },
     serviceManager: {
       title: "Gerenciar serviços",
@@ -1427,11 +1427,11 @@ const TRANSLATIONS = {
   },
   en: {
     app: {
-      title: "IGColina Data",
+      title: "IGFI Data",
       tagline: "Dashboard created for Igreja em Colina® 2025",
-      homeAria: "Home · IGColina Data",
+      homeAria: "Home · IGFI Data",
       document: ({ page }) =>
-        page ? `${page} · IGColina Data` : "IGColina Data",
+        page ? `${page} · IGFI Data` : "IGFI Data",
     },
     header: {
       lastUpdated: {
@@ -1836,7 +1836,7 @@ const TRANSLATIONS = {
           "As the services coordinator, you can assign ministries (even multiple per member) and maintain serving information directly from the manager.",
       },
       customFollowUp:
-        "Make sure the data is up to date in the spreadsheet and use the cards or search to quickly locate the information you need. If the question persists, contact the IGColina leadership.",
+        "Make sure the data is up to date in the spreadsheet and use the cards or search to quickly locate the information you need. If the question persists, contact the IGFI leadership.",
     },
     serviceManager: {
       title: "Manage services",
@@ -1940,11 +1940,11 @@ const TRANSLATIONS = {
   },
   es: {
     app: {
-      title: "Datos de IGColina",
+      title: "Datos de IGFI",
       tagline: "Panel creado para uso de la Iglesia en Colina® 2025",
-      homeAria: "Inicio · Datos de IGColina",
+      homeAria: "Inicio · Datos de IGFI",
       document: ({ page }) =>
-        page ? `${page} · Datos de IGColina` : "Datos de IGColina",
+        page ? `${page} · Datos de IGFI` : "Datos de IGFI",
     },
     header: {
       lastUpdated: {
@@ -2352,7 +2352,7 @@ const TRANSLATIONS = {
           "Como responsable de los servicios, puedes asignar ministerios (incluso más de uno por hermano) y mantener la información actualizada directamente en el gestor.",
       },
       customFollowUp:
-        "Verifica que los datos estén actualizados en la planilla y utiliza las tarjetas o la búsqueda para localizar rápidamente la información deseada. Si la duda persiste, ponte en contacto con la lideranza de IGColina.",
+        "Verifica que los datos estén actualizados en la planilla y utiliza las tarjetas o la búsqueda para localizar rápidamente la información deseada. Si la duda persiste, ponte en contacto con la lideranza de IGFI.",
     },
     serviceManager: {
       title: "Gestionar servicios",
@@ -2496,19 +2496,13 @@ const NAME_SECRET = "IGCOLINA2025";
 
 const RESPONSIBLE_ROLE_CREDENTIALS = {
   "7a5df5ffa0dec2228d90b8d0a0f1b0767b748b0a41314c123075b8289e4e053f":
-    "0426312c2925272f5d10615c253122",
-  "73a2af8864fc500fa49048bf3003776c19938f360e56bd03663866fb3087884a":
-    "042e2223252a2628",
-  "b74b7e3fcb623d805dacf98db27530f845760c47e3b0faa702b84e9ff3902c37":
-    "0829273da5691d285e4653",
-  "b411746bdf09bde7f1fe70ddc8fa57241a0cb79d14d6e9c27e598635ca7dae4d":
-    "1a2231282527262e",
-  "3f95b1b8a32c2c0251dfdbc3c8a30aab6d6e680cf0ef03e8af84a65dff0c4a85":
-    "0a2e2720",
-  "060e33205a731400c2eb92bc12cf921a4e44cf1851d216f144337dd6ec5350a7":
-    "0a2631232527262e41",
+    "082a2a3d",
+  "f296867839c8befafed32b55a7c11ab4ad14387d2434b970a55237d537bc9353":
+    "042631262d2721",
   "ff4b467b7a593047c46682ecdbf6da36b3f3bb4b50d35f08f17f751ef5f15531":
     "2337252e2f21272f53",
+  "0d21ae129a64e1d19e4a94dfca3a67c777e17374e9d4ca2f74b65647a88119ea":
+    "053222212d",
 };
 
 const SERVICES_ROLE_CREDENTIALS = Object.freeze({
